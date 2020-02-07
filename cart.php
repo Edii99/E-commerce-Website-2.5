@@ -11,11 +11,11 @@ if(isset($_POST['UpcartDone']))
     $SuccessUpCartQty = $NepdevJDLight->NepdevUpdateProCartQty($upcartqty,$cartkoid);
     if($SuccessUpCartQty==true)
     {
-       echo "<script>alert('Success Update Cart');</script>";
+       echo "<script>alert('Cart Successfully Updated');</script>";
     }
     else
     {
-        echo "<script>alert('Cant Update Cart');</script>";
+        echo "<script>alert('Cant Update Cart Now');</script>";
     } 
 }
 ?>
